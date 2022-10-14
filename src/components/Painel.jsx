@@ -1,5 +1,5 @@
 import styles from './Painel.module.css';
-import { chamarSenha } from './chamarSenha.jsx'
+import { dadosPacientes } from './dadosPacientes.jsx'
 
 export function Painel({pacienteAtual, pacientesAnteriores}) {
  return (
