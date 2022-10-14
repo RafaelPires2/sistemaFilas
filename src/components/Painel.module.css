@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+
+    z-index: -1;
+    
+
+}
+.painel {
+    border: 5px solid rgba(0, 0, 0, 0.781);
+    border-radius: 6px;
+    background-color: white;
+
+    width:50rem;
+    max-height: 30rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+
+
+    font-size: 2.4rem;
+    padding: 2rem;
+    gap: 1rem;
+}
+.visor {
+    width: 60%;
+    height: 100%;
+    
+}
+.senhaAtual {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 1rem;
+
+    font-size: 3.4rem;
+    font-weight: bold;
+    height: min(8rem);
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.nomeAtual {
+    margin-top: 2rem;
+}
+.salaAtual {
+    margin-top: 1rem;
+    
+    color: red;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.painelAnterior{
+    width: 40%;   
+}
+.anterior {
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+
+    padding: 1rem;
+
+    height: min(8rem);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+

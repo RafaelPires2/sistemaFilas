@@ -1,0 +1,27 @@
+button {
+    width: 15rem;
+    height: 5rem;
+    border-style: none;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+.buttonRetirar{
+    background: rgb(0, 174, 255);
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.425);
+    border-radius: 4px;
+    margin-inline: 1rem;    
+}
+.buttonRetirar:hover{
+    background: rgb(0, 160, 235);
+}
+.buttonChamar{
+    background: green;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.425);
+    border-radius: 4px;
+}
+.buttonChamar:hover{
+    background: rgb(1, 143, 1);
+}
