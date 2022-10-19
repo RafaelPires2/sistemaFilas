@@ -13,7 +13,7 @@ export function Button({ chamarSenha,  handleOpenModal}) {
 
     return (
         <div>
-            <button type="button" className={styles.buttonRetirar} onClick={handleOpenModal}> Cadastrar Paciente</button>
+            <button type="button" className={styles.buttonRetirar} onClick={handleOpenModal}> Novo Paciente</button>
             <button type="button" className={styles.buttonChamar} onClick={chamarSenha}> Chamar Senha</button>
         </div>
     )

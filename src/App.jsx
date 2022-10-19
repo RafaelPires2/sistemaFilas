@@ -41,7 +41,7 @@ export function App(){
           <Painel pacienteAtual={dadosPacientes.at(indexPacienteAtual)} pacientesAnteriores={pacientesAnteriores} />
           <Button chamarSenha={chamarSenha} handleOpenModal={handleOpenModal} />
           
-          <ModalCadastro  />
+          <ModalCadastro handleCloseModal={handleCloseModal} />
           
         </div>
       )
