@@ -10,5 +10,6 @@
     height: 100vh;
 
     background-color: rgba(228, 228, 228, 0.123);
-   
+    background: linear-gradient( -5deg, rgba(20, 0, 53, 0.733), transparent, transparent,transparent);
+
 }

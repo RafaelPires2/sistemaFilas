@@ -30,7 +30,33 @@ button {
    width: 3.2rem;
    color: white;
    cursor: pointer;
+
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+   
+
+   background: rgba(255, 0, 0, 0.842);
+   border-radius: 4px;
 }
 .btnClose:hover{
-    background: rgba(255, 0, 0, 0.842);
+    background: rgb(252, 36, 36);
+    border-radius: 4px;
+}
+.btnSalvar {
+    height: 3.2rem;
+    width: 3.2rem;
+    color: white;
+    cursor: pointer;
+    background: green;
+    border-radius: 4px;
+
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.btnSalvar:hover{
+    background: rgb(9, 170, 9);
+    border-radius: 4px;
 }

@@ -6,6 +6,7 @@ import { dadosPacientes } from "./components/dadosPacientes"
 import { Button } from './components/Button';
 import { Painel } from './components/Painel';
 import { ModalCadastro } from "./components/ModalCadastro";
+import { Img } from "./components/Img";
 
 
 
@@ -42,6 +43,7 @@ export function App(){
           <Button chamarSenha={chamarSenha} handleOpenModal={handleOpenModal} />
           
           <ModalCadastro handleCloseModal={handleCloseModal} />
+          <Img />
           
         </div>
       )
@@ -51,6 +53,7 @@ export function App(){
         <div className={styles.wrapper}>
           <Painel pacienteAtual={dadosPacientes.at(indexPacienteAtual)} pacientesAnteriores={pacientesAnteriores} />
           <Button chamarSenha={chamarSenha} handleOpenModal={handleOpenModal} />          
+          <Img />
         </div>
       )
     }

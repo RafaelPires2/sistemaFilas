@@ -5,17 +5,17 @@
 
     width: 100vw;
 
-    z-index: -1;
+  
     
 
 }
 .painel {
     border: 5px solid rgba(0, 0, 0, 0.781);
     border-radius: 6px;
-    background-color: white;
+    background-color: transparent;
 
-    width:50rem;
-    height: 30rem;
+    width:55rem;
+    height: 35rem;
 
     display: flex;
     align-items: flex-start;
@@ -26,10 +26,14 @@
     font-size: 2.4rem;
     padding: 2rem;
     gap: 1rem;
+ 
+
 }
 .visor {
     width: 60%;
     height: 100%;
+
+
     
 }
 .senhaAtual {
@@ -59,8 +63,10 @@
 
 }
 .painelAnterior{
-    width: 40%;   
+    width: 40%;  
+
 }
+
 .anterior {
     border: 1px solid black;
     border-radius: 6px;
@@ -74,7 +80,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
 }
 

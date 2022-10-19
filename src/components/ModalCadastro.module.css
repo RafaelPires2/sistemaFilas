@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 47rem;
-    height: 27rem;
+    width: 52rem;
+    height: 32rem;
 
     background: rgba(8, 30, 63, 0.945);
     border-radius: 4px;
@@ -17,7 +17,7 @@
     width: 100%;
     padding-inline:1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: -4rem;
     margin-bottom: 2rem;
