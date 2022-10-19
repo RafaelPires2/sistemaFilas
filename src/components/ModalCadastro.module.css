@@ -1,0 +1,33 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 47rem;
+    height: 27rem;
+
+    background: rgba(12, 36, 71, 0.945);
+    border-radius: 4px;
+    position: fixed;
+    z-index: 1;
+
+    margin-bottom: 7rem;
+}
+.modal h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+.modal form{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.8;
+    gap: .5rem;
+}
+.modal input{
+    padding: .5rem;
+}

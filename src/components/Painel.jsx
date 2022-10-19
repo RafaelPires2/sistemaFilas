@@ -1,5 +1,4 @@
 import styles from './Painel.module.css';
-import { dadosPacientes } from './dadosPacientes.jsx'
 
 export function Painel({pacienteAtual, pacientesAnteriores}) {
  return (
@@ -16,7 +15,7 @@ export function Painel({pacienteAtual, pacientesAnteriores}) {
       <div className={styles.painelAnterior}>
 
         {pacientesAnteriores.map((pacienteAnterior) => (
-          <div className={styles.anterior}>
+          <div key={Math.random()} className={styles.anterior}>
             <div className={styles.senhaAnterior}>Senha:{pacienteAnterior.senha}</div>
             <div className={styles.salaAnterior}>Sala:{pacienteAnterior.sala}</div>
           </div>

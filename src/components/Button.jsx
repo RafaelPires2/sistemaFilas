@@ -1,9 +1,19 @@
+import { useState } from 'react';
 import styles from './Button.module.css';
+import { ModalCadastro } from './ModalCadastro';
+import { App } from '../App';
 
-export function Button({ chamarSenha, retirarSenha }) {
+
+
+
+
+export function Button({ chamarSenha,  handleOpenModal}) {
+
+
+
     return (
         <div>
-            <button type="button" className={styles.buttonRetirar} onClick={retirarSenha}> Retirar Senha</button>
+            <button type="button" className={styles.buttonRetirar} onClick={handleOpenModal}> Cadastrar Paciente</button>
             <button type="button" className={styles.buttonChamar} onClick={chamarSenha}> Chamar Senha</button>
         </div>
     )
