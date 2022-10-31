@@ -2,23 +2,11 @@ import styles from './ModalCadastro.module.css';
 import { X, Check } from "phosphor-react";
 import style from './Button.module.css';
 import { useState } from 'react';
+import { App } from '../App'
 
 
-export function ModalCadastro({ handleCloseModal }) {
-  const [name, setName] = useState('')
-  const [sala, setSala] = useState('')
+export function ModalCadastro({ handleCloseModal, salvarPaciente, setName, setSala }) {
   
-
-  function salvarPaciente() {
-    const data = {
-      name, sala
-    }
-   
-    
-
-    localStorage.newPaciente = JSON.stringify(data)
-    
-  }
 
   return (
     <>
