@@ -15,23 +15,17 @@ export function App(){
   const [isOpenModal, setIsOpenModal] = useState(false)
   const [name, setName] = useState('')
   const [sala, setSala] = useState('')
-  const [id, setId] = useState(0)
+  const [id, setId] = useState(1)
 
  function idPaciente() {
   setId(id + 1)
  }
 
-  const data = {
-    name, sala
-  }
-
   function salvarPaciente() {
-    
-    localStorage.setItem(id + name, JSON.stringify(data))
+    dadosPacientes.push({senha: id, name: name, sala: sala})
     idPaciente()
     setIsOpenModal(false)
   }
-
 
    function handleOpenModal(){
   setIsOpenModal(true)
@@ -40,8 +34,6 @@ export function App(){
   function handleCloseModal(){
    setIsOpenModal(false)
   }
-  
-  console.log (localStorage)
 
   const pacientesAnteriores = dadosPacientes.filter( (_, index) => {
     const a = indexPacienteAtual - 3
