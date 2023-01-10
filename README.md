@@ -1,6 +1,6 @@
 # Hospital queue system
 
-<h1> <img width="600px" src="./public/assets/img-sistema.jpg" /> </h1>
+<h1> <img width="900px" src="./public/assets/img-sistema.jpg" /> </h1>
 
 
 ## 📕 About
